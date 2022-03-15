@@ -1,7 +1,7 @@
 /*                      Atividade 7
-Algoritmos e Estrutura de Dados I - CiÍncia da ComputaÁ„o
-Prof. Dr. Aparecido Freitas (Cid„o)
-Feito por: Davi MarÁal
+Algoritmos e Estrutura de Dados I - Ci√™ncia da Computa√ß√£o
+Prof. Dr. Aparecido Freitas (Cid√£o)
+Feito por: Davi Mar√ßal
 */
 
 #include <stdio.h>
@@ -14,10 +14,11 @@ int main (void)
 	
 	float circle_area, circle_radius = 10;
 	
-	printf("O raio do circulo È de %.2f.\n", circle_radius);
+	printf("O raio do circulo √© de %.2f.\n", circle_radius);
 	
-	//   ¡rea do cÌrculo = pi * r≤
+	//   √Årea do c√≠rculo = pi * r¬≤
 	circle_area = M_PI * (circle_radius * circle_radius);
 	
-	printf("A ·rea do circulo È de %.2f.", circle_area);
+	printf("A √°rea do circulo √© de %.2f.", circle_area);
+	return 0;
 }
