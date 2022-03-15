@@ -1,7 +1,7 @@
 /*                      Atividade 5
-Algoritmos e Estrutura de Dados I - Ciência da Computação
-Prof. Dr. Aparecido Freitas (Cidão)
-Feito por: Davi Marçal
+Algoritmos e Estrutura de Dados I - CiÃªncia da ComputaÃ§Ã£o
+Prof. Dr. Aparecido Freitas (CidÃ£o)
+Feito por: Davi MarÃ§al
 */
 
 #include <stdio.h>
@@ -17,7 +17,8 @@ int main (void)
 	
 	printf("O lado do quadrado: %d.\n", square_side);
 	
-	printf("A área do quadrado é de %d.", square_area); 
+	printf("A Ã¡rea do quadrado Ã© de %d.", square_area); 
+	return 0;
 } 
 
 
