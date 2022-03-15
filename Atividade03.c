@@ -1,7 +1,7 @@
 /*                      Atividade 3
-Algoritmos e Estrutura de Dados I - Ciência da Computação
-Prof. Dr. Aparecido Freitas (Cidão)
-Feito por: Davi Marçal
+Algoritmos e Estrutura de Dados I - CiÃªncia da ComputaÃ§Ã£o
+Prof. Dr. Aparecido Freitas (CidÃ£o)
+Feito por: Davi MarÃ§al
 */
 
 #include <stdio.h>
@@ -23,4 +23,5 @@ int main(void)
 	printf("R2 = %d\n", R2); // 13
 	printf("R3 = %d\n", R3); // 15
 	printf("A = %d", A); // 15 
+	return 0;
 }
