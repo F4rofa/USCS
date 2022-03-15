@@ -1,17 +1,17 @@
 /*                      Atividade 4
-Algoritmos e Estrutura de Dados I - Ciência da Computação
-Prof. Dr. Aparecido Freitas (Cidão)
-Feito por: Davi Marçal
+Algoritmos e Estrutura de Dados I - CiÃªncia da ComputaÃ§Ã£o
+Prof. Dr. Aparecido Freitas (CidÃ£o)
+Feito por: Davi MarÃ§al
 */
 
 #include <stdio.h>
-#include <locale.h> // Acerta caractere da língua portuguesa
+#include <locale.h> // Acerta caractere da lÃ­ngua portuguesa
 
 int main (void)
 {
 	setlocale(LC_ALL, "Portuguese");
 	double T1 = 5.0, T2 = 4.5, T3 = 9.0, mediaTrabalhos;
-	// double = armazena mais números -> 64bits
+	// double = armazena mais nÃºmeros -> 64bits
 	mediaTrabalhos = (T1 + T2 + T3) / 3.0; // Vai dar aprovado
 	
 	if (mediaTrabalhos >= 6.0)
@@ -22,4 +22,5 @@ int main (void)
 	{
 		printf("Reprovado nos Trabalhos...");
 	}
+	return 0;
 }
